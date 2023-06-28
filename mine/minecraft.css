@@ -1,0 +1,158 @@
+body{
+     font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    background-image: url("./crebg.jpg");
+    background-size: cover;
+    
+}
+h1{
+
+color:black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-left: 4px;
+padding-top: 30px;
+padding-bottom: 25px;
+}
+
+#board{
+    width:540px;
+    height: 540px;
+    background-image: url("./hd.jpg");
+    background-size: cover;
+    border: 3px solid gray;
+    border-radius: 25px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board{
+
+    width: 75%;
+    height: 50%;
+}
+
+
+#board div{
+    width: 25%;
+    height: 30%;
+    background-image: url("./pipep.png");
+    background-size: 85px;
+    padding-left: 20px;
+}
+
+
+#board div img{
+    width: 52px;
+    height: 45px;
+    padding-right: 30px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#score img{
+    width: 100px;
+    height: 100px;
+}
+
+#high{
+    padding-left: 20px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+#restart{
+    
+    
+    display :none;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height:60px;
+    margin-top: 200px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    
+}
+
+#restart:hover{
+
+    display :none;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height:60px;
+    margin-top: 200px;
+    font-size: larger;
+    background-color: black;
+    color: red;
+    text-align: center;
+    
+
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+     #board{
+
+    width: 35%;
+    height: 70%;
+}
+
+
+
+#board div{
+    
+    width: 130px;
+    height: 140px;
+    background-image: url("./pipep.png");
+    background-size: 140px;
+    padding-left: 15px;
+}
+
+
+#board div img{
+    width: 80px;
+    height: 80px;
+    padding-right: 15px;
+    
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+}
+
+
+#start{
+    
+}
+
+
